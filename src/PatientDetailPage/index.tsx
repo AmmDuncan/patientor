@@ -64,7 +64,7 @@ const PatientDetailPage = () => {
           };
           break;
       }
-
+ 
       selectedValues = { ...selectedValues, ...additionalValues };
       const cleanedValues = Object.entries(selectedValues).reduce(
         (acc: { [key: string]: unknown }, [key, value]) => {
